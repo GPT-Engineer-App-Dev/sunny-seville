@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
+import sevilleSummer from '/images/seville-summer.jpg';
 
 const Index = () => {
   return (
     <div className="text-center space-y-8">
       <div className="relative w-full h-[400px]">
-        <img src="/placeholder.svg" alt="Seville" className="mx-auto object-cover w-full h-[400px]" />
+        <img src={sevilleSummer} alt="Seville in Summer" className="mx-auto object-cover w-full h-[400px]" />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-4xl text-white font-bold">Welcome to Seville</h1>
         </div>
